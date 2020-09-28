@@ -16,24 +16,19 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="383d0c48-27d5-44ca-9134-9d51e9a274da" name="Default Changelist" comment="测试成功">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/blog/yinong/controller/yinong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="383d0c48-27d5-44ca-9134-9d51e9a274da" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/blog/yinong/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blog/yinong/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/blog/yinong/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blog/yinong/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/blog/yinong/repository/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blog/yinong/repository/UserRepositoryImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,14 +51,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-        <option name="userSettingsFile" value="F:\IDEA\IntelliJ IDEA 2020.1.1\plugins\maven\lib\maven3\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1cfzvby3QJk7xKBsQIHoelo25AO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -78,11 +65,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="F:/java练习" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -207,14 +194,15 @@
       <workItem from="1598664669901" duration="527000" />
       <workItem from="1598665216341" duration="530000" />
       <workItem from="1598665767408" duration="931000" />
-      <workItem from="1598667003713" duration="1643000" />
-      <workItem from="1598670932388" duration="1443000" />
-      <workItem from="1598672468125" duration="42000" />
-      <workItem from="1599657925253" duration="538000" />
-      <workItem from="1600179850947" duration="2272000" />
-      <workItem from="1600254365240" duration="2263000" />
-      <workItem from="1600256693563" duration="1494000" />
-      <workItem from="1600262159579" duration="989000" />
+      <workItem from="1598667003713" duration="1933000" />
+      <workItem from="1598714119660" duration="4000" />
+      <workItem from="1598771796081" duration="411000" />
+      <workItem from="1598772884934" duration="599000" />
+      <workItem from="1599880377525" duration="61000" />
+      <workItem from="1600168683022" duration="2590000" />
+      <workItem from="1600172278932" duration="355000" />
+      <workItem from="1601292177699" duration="718000" />
+      <workItem from="1601292915748" duration="479000" />
     </task>
     <task id="LOCAL-00001" summary="创建gradle项目">
       <created>1591011639042</created>
@@ -237,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591021169710</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加用户类">
+      <created>1598669780449</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598669780450</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +243,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -260,61 +267,49 @@
     <MESSAGE value="创建gradle项目" />
     <MESSAGE value="构建完成" />
     <MESSAGE value="测试成功" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试成功" />
+    <MESSAGE value="添加用户类" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加用户类" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="395" y="111" key="#Inspections" timestamp="1600262911810">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="768" y="241" width="374" height="624" key="#com.intellij.ide.util.MemberChooser" timestamp="1598772184768">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="395" y="111" key="#Inspections/0.0.1536.864@0.0.1536.864" timestamp="1600262911810" />
-    <state x="614" y="175" width="374" height="624" key="#com.intellij.ide.util.MemberChooser" timestamp="1600262822835">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="768" y="241" width="374" height="624" key="#com.intellij.ide.util.MemberChooser/0.28.1920.1052@0.28.1920.1052" timestamp="1598772184768" />
+    <state x="452" y="75" width="1006" height="955" key="CommitChangelistDialog2" timestamp="1598669779914">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="614" y="175" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1600262822835" />
-    <state x="768" y="241" width="374" height="624" key="#com.intellij.ide.util.MemberChooser/0.28.1920.1052@0.28.1920.1052" timestamp="1598669444019" />
-    <state x="259" y="149" key="FileChooserDialogImpl" timestamp="1600255974710">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="452" y="75" width="1006" height="955" key="CommitChangelistDialog2/0.28.1920.1052@0.28.1920.1052" timestamp="1598669779914" />
+    <state width="1870" height="277" key="GridCell.Tab.0.bottom" timestamp="1598666119801">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="259" y="149" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1600255974710" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1600262553394">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1600262553394" />
     <state width="1870" height="277" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1598666119801" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1600262553394">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1870" height="277" key="GridCell.Tab.0.center" timestamp="1598666119801">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1600262553394" />
     <state width="1870" height="277" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1598666119801" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1600262553394">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1870" height="277" key="GridCell.Tab.0.left" timestamp="1598666119800">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1600262553394" />
     <state width="1870" height="277" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1598666119800" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1600262553394">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1870" height="277" key="GridCell.Tab.0.right" timestamp="1598666119801">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1600262553394" />
     <state width="1870" height="277" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1598666119801" />
-    <state width="1493" height="223" key="GridCell.Tab.1.bottom" timestamp="1600262553394">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1870" height="277" key="GridCell.Tab.1.bottom" timestamp="1598666119802">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1600262553394" />
     <state width="1870" height="277" key="GridCell.Tab.1.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1598666119802" />
-    <state width="1493" height="223" key="GridCell.Tab.1.center" timestamp="1600262553394">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1870" height="277" key="GridCell.Tab.1.center" timestamp="1598666119802">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1600262553394" />
     <state width="1870" height="277" key="GridCell.Tab.1.center/0.28.1920.1052@0.28.1920.1052" timestamp="1598666119802" />
-    <state width="1493" height="223" key="GridCell.Tab.1.left" timestamp="1600262553394">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1870" height="277" key="GridCell.Tab.1.left" timestamp="1598666119801">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1600262553394" />
     <state width="1870" height="277" key="GridCell.Tab.1.left/0.28.1920.1052@0.28.1920.1052" timestamp="1598666119801" />
-    <state width="1493" height="223" key="GridCell.Tab.1.right" timestamp="1600262553394">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1870" height="277" key="GridCell.Tab.1.right" timestamp="1598666119802">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1600262553394" />
     <state width="1870" height="277" key="GridCell.Tab.1.right/0.28.1920.1052@0.28.1920.1052" timestamp="1598666119802" />
     <state width="1870" height="342" key="GridCell.Tab.2.bottom" timestamp="1598665196550">
       <screen x="0" y="28" width="1920" height="1052" />
@@ -332,19 +327,26 @@
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state width="1870" height="342" key="GridCell.Tab.2.right/0.28.1920.1052@0.28.1920.1052" timestamp="1598665196550" />
-    <state x="270" y="77" width="1024" height="843" key="SettingsEditor" timestamp="1600256711744">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="516" y="290" width="878" height="526" key="IDE.errors.dialog" timestamp="1601292963080">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="270" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1600256711744" />
-    <state x="338" y="122" width="1024" height="843" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1598665742124" />
+    <state x="516" y="290" width="878" height="526" key="IDE.errors.dialog/0.28.1920.1052@0.28.1920.1052" timestamp="1601292963080" />
+    <state x="338" y="122" width="1024" height="843" key="SettingsEditor" timestamp="1601293393738">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="338" y="122" width="1024" height="843" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1601293393738" />
+    <state x="555" y="290" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1598669784797">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="555" y="290" width="800" height="526" key="Vcs.Push.Dialog.v2/0.28.1920.1052@0.28.1920.1052" timestamp="1598669784797" />
     <state x="626" y="84" width="667" height="939" key="find.popup" timestamp="1598665067663">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="626" y="84" width="667" height="939" key="find.popup/0.28.1920.1052@0.28.1920.1052" timestamp="1598665067663" />
-    <state x="178" y="42" width="1194" height="779" key="new project wizard" timestamp="1600258066269">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="158" y="133" width="1593" height="839" key="new project wizard" timestamp="1600171502469">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="178" y="42" width="1194" height="779" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1600258066269" />
+    <state x="158" y="133" width="1593" height="839" key="new project wizard/0.28.1920.1052@0.28.1920.1052" timestamp="1600171502469" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/yinong$HelloControllerTest_contextLoads.ic" NAME="HelloControllerTest.contextLoads Coverage Results" MODIFIED="1592483682142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

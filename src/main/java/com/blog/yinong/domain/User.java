@@ -10,7 +10,7 @@ public class User {
     private String email;
 
     public User(){
-        //无参
+        //无参构造函数
     }
     public User(Long id,String name,String email){
 

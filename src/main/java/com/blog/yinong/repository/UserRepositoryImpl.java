@@ -1,8 +1,9 @@
 package com.blog.yinong.repository;
 
 import com.blog.yinong.domain.User;
-
 import java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentMap;
 
 /**
  * 用户资源库实现
@@ -10,6 +11,8 @@ import java.util.List;
 
 public class UserRepositoryImpl implements UserRepository{
 
+
+    private final ConcurrentMap<Long,User> userMap = new ConcurrentHashMap<>();
 
     @Override
     public User saveOrUpdateUser(User user) {
